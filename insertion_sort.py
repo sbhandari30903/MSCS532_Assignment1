@@ -7,6 +7,9 @@ def insertion_sort(arr):
             j -= 1
         arr[j + 1] = key
 
-a = [2,445,2434,123345435,564,13]
-insertion_sort(a)
-print(a)
+
+if __name__ == "__main__":
+    a = [2,445,2434,123345435,564,13]
+    print("Original array:", a)
+    insertion_sort(a)
+    print("Sorted array:", a)
